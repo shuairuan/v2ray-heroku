@@ -1,18 +1,18 @@
 # V2Ray Heroku
 
-## 概述
+## Introduce
 
-用于在 Heroku 上部署 V2Ray Websocket。
+Deploying v2ray websocket on Heroku
 
-**Heroku 为我们提供了免费的容器服务，我们不应该滥用它，所以本项目不宜做为长期翻墙使用。**
+**Heroku provides us free docker containers, so we shouldn't abuse that:)**
 
-**可以部署两个以上的应用，实现 [负载均衡](https://toutyrater.github.io/app/balance.html)，避免长时间大流量连接某一应用而被 Heroku 判定为滥用。**
+**You can deploy two apps, then Heroku shouldn't think you are abusing their services.**
 
-**Heroku 的网络并不稳定，部署前请三思。**
+**Heroku's network is not stable, think before you go.**
 
-## 镜像
+## Mirror
 
-本镜像不会因为大量占用资源而被封号。
+This mirror will not let Heroku to think we are abusers.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fshuairuan%2Fv2ray-heroku)
 
